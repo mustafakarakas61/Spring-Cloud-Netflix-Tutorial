@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.mustafa.feignclient.FeignclientApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.357 s <<< FAILURE! - in com.mustafa.feignclient.FeignclientApplicationTests
+contextLoads  Time elapsed: 0.026 s  <<< ERROR!
+java.lang.NoSuchMethodError: 'java.lang.String org.springframework.core.annotation.AnnotationAttributes.getAliasedString(java.lang.String, java.lang.Class, java.lang.Object)'
+

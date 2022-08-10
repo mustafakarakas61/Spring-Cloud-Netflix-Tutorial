@@ -1,0 +1,3 @@
+com\mustafa\feignclient\service\IFeignClientService.class
+com\mustafa\feignclient\FeignClientApplication.class
+com\mustafa\feignclient\controller\FeignClientController.class

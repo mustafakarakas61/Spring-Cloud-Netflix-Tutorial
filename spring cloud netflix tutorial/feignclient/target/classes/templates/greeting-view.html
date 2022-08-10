@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Greeting Page</title>
+</head>
+<body bgcolor="#7fffd4">
+<p>Selamlar. Arkaplanımda çalışan Eureka Server'ime EurkeClient ve FeignClient katıldı.<br>Bu html sayfası FeignClient içinde.<br>
+FeignClient içindeki GreetingClient dosyasından özel bir anatastyon ile EurekaClient'e bağlandım.<br>İlgili RequestMapping anatasyonlarıyla
+veriyi çektim.<br>
+Veri EurekaClientApplication sınıfından geliyor. Ama GreetingController'den bu veriye ulaşıyoruz çünkü GreetingController aslında bir servis!</p>
+<h2 th:text="${greeting}"/>
+<h1 th:text="${name}"/>
+</body>
+</html>
