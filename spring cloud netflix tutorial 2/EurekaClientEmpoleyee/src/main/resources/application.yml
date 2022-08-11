@@ -1,0 +1,30 @@
+server:
+  port: 9001
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
+
+
+spring:
+  application:
+    name: employee-service
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    jmx:
+      exposure:
+        include: health,info,env,beans
+    web:
+      exposure:
+        include: health,info,env,beans
+
+logging:
+  level:
+    com.codeusingjava: DEBUG
